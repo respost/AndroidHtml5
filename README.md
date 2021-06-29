@@ -1,9 +1,12 @@
-# Android组件化开发示例
+# Android将html5网址封装成APP实例
 ### 开发语言：Android
 ### 开发工具：Android Studio
 ## 项目简述：
-Android组件化就是将一个app分成多个模块，每个模块都是一个组件（Module），开发的过程中我们可以让这些组件相互依赖或者单独调试部分组件等，但是最终发布的时候是将这些组件合并成一个apk，这就是组件化开发。
+越来越多的开发者热衷于使用html5+JavaScript开发移动Web网页。HTML5的出现能否在未来取代移动APP应用，就目前来说，还是个未知数。一方面，用户在使用习惯上，不喜欢在浏览器上输入复杂的网址；另一方面，Html5存放在服务器端，在每次使用时需要进行数据传递，会造成流量浪费。有些开发者不想接触复杂的JAVA代码，那么有什么办法，既可以使用HTMl5开发网站应用，又可以将其简单封装成APK文件呢？当然有，那就是使用Android的Webview控件。
 ### 参考文章：
-[文章地址](https://blog.csdn.net/qq15577969/article/details/109596071)
-## APP截图：
-![demo.jpg](readme/demo.jpg)
+[文章地址](https://blog.csdn.net/qq15577969/article/details/118329286)
+## 技术难点：
+1. 沉浸式(透明)状态栏
+2. 隐藏虚拟按键，并且全屏（滑动屏幕可重新显示出来）
+3. Android6.0以上权限请求
+4. Webview的配置
